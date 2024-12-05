@@ -1,0 +1,59 @@
+
+<form class="form-container"
+  [formGroup] = 'form'
+  
+  >
+
+  <label for="userId" ><b> ID </b></label>
+  <input 
+  type="text" 
+  pInputText
+  formControlName="userId" 
+  placeholder="userId" 
+  name="userId" 
+  required>
+           
+      <label for="firstName" ><b> First Name </b></label>
+      <input 
+      type="text" 
+      pInputText
+      formControlName="firstName" 
+      placeholder="Enter your first name" 
+      name="firstName" 
+      required>
+
+      <label for="lastName" ><b> Last Name </b></label>
+      <input 
+      type="text" 
+      pInputText
+      formControlName="lastName" 
+      placeholder="Enter your last name" 
+      name="lastName" 
+      required>
+
+      <label for="age" ><b> Age </b></label>
+      <input 
+      type="text" 
+      pInputText
+      formControlName="age" 
+      placeholder="Enter your age" 
+      name="age" 
+      required>
+
+      <label for="userRole" ><b> Role </b></label>
+      <input 
+      type="text" 
+      pInputText
+      formControlName="userRole" 
+      placeholder="Enter your role" 
+      name="userRole" 
+      required>
+
+        <button type="submit" [disabled]="!form.valid" (click)="save()"> {{txtButton}} </button>
+      
+        <button type="button" class="cancelbtn" >Cancel</button>
+
+  
+    </form>
+
+

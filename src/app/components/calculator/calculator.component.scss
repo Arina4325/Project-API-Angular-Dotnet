@@ -1,0 +1,23 @@
+.calculator{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+&_container{
+    display: flex;
+    flex-direction: row;
+}
+
+&_input{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+&_result{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+}

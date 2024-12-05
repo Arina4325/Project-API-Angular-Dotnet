@@ -1,0 +1,27 @@
+<!-- users-page-new!! пробую тут -->
+
+<app-users-page-new></app-users-page-new>
+<br>
+<br>
+<br>
+<br>
+
+<!-- разные упражнения пробую тут -->
+<p style = "font-weight:bold">Two-way binding:</p>
+<span title="{{tooltip2}}">{{text}}</span>
+<br>
+<br>
+
+
+<p style = "font-weight:bold">Tooltips:</p>
+<p data-tooltip= "всплывающая подсказка с полным набором CSS -инлайн - с текстом внутри тага">Краткая информация - наведи курсор для подсказки<p>
+<input type="text" [title]="tooltip1" placeholder = "Hover your cursor"> <br>
+<input type="text" title="{{tooltip2}}" placeholder = "Hover your cursor">
+
+<button (click) = "showMessage()" data-tooltip="Click to BOOO">BOOO</button>
+<br>
+<br>
+
+<p style = "font-weight:bold">Calculator: </p>
+<app-calculator></app-calculator>
+

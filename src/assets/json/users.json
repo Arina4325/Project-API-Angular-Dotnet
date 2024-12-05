@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "firstName": "Arina",
+      "lastName": "Leyzer",
+      "age": 18,
+      "userRole": "Admin",
+      "userId": "123456"
+    },
+    {
+        "firstName": "Mark",
+        "lastName": "Martel",
+        "age": 20,
+        "userRole": "User",
+        "userId": "654321"
+      },  
+    {
+        "firstName": "Mark",
+        "lastName": "Mark",
+        "age": 40,
+        "userRole": "User",
+        "userId": "654444"
+      },  
+      {
+          "firstName": "Avi",
+          "lastName": "Barak",
+          "age": 40,
+          "userRole": "User",
+          "userId": "777777"
+        }
+
+]
+
+}
+  
